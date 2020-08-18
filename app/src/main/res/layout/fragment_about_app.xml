@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".fragment.AboutAppFragment">
+
+    <TextView
+        android:id="@+id/txtAboutApp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="- Version 1.0"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="10dp"
+        android:textColor="#000000"
+        android:textSize="20sp"
+        android:textStyle="normal"/>
+
+    <TextView
+        android:id="@+id/txtAddToFav"
+        android:layout_below="@id/txtAboutApp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="- Add/Remove to favourites."
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="10dp"
+        android:textColor="#000000"
+        android:textSize="20sp"
+        android:textStyle="normal"/>
+
+</RelativeLayout>
